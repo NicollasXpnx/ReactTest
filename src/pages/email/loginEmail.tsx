@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, TouchableOpacity, Text, TextInput } from "react-native";
-import { loginEmailstyles } from "./loginEmailstyles";  
+import { loginEmailstyles } from "./loginEmailstyles";
 import { Feather, Ionicons, FontAwesome5 } from "@expo/vector-icons";
 
 export default function loginEmailstylesstyles() {
@@ -36,7 +36,7 @@ export default function loginEmailstylesstyles() {
           onPress={() => setHidePassword(!hidePassword)}
         >
           <FontAwesome5
-            name={hidePassword ? "eye" : "eye-slash"}
+            name={hidePassword ? "eye-slash" : "eye"}
             size={20}
             color="#d3d3d3"
           />
