@@ -1,12 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Formulario2 from "./src/pages/Formulário 2";
+import LoginE from "./src/pages/email/loginEmail";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Formulario2 />
+      <LoginE />
     </View>
   );
 }
