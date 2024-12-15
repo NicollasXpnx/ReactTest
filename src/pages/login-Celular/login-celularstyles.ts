@@ -1,26 +1,27 @@
 import { StyleSheet } from "react-native";
 
-export const loginEmailstyles = StyleSheet.create({
-  container: {
+export const logincelularstyles = StyleSheet.create({
+  
+    container: {
     flex: 1,
     padding: 20,
     backgroundColor: "#FFFFFF",
   },
 
-  backBotton: {
+  backButton: {
     marginTop: 25,
     marginLeft: -5,
   },
 
-  title: {
+  text: {
     fontSize: 19,
     fontWeight: "300",
-    textAlign: "left",
+    alignItems: "center",
     marginTop: 40,
     color: "#4F4F4F",
   },
 
-  textinput: {
+  numberinput: {
     height: 50,
     borderWidth: 1,
     padding: 10,
@@ -31,21 +32,19 @@ export const loginEmailstyles = StyleSheet.create({
     paddingHorizontal: 15,
     marginBottom: 2,
   },
-  inputsenha: {
-    flexDirection: "row",
+
+  text2: {
+    fontSize: 12,
+    fontWeight: "300",
     alignItems: "center",
-    height: 50,
-    borderWidth: 1,
-    borderColor: "#d3d3d3",
-    borderRadius: 5,
-    marginVertical: 12,
-    paddingHorizontal: 15,
-    marginBottom: 7,
+    marginTop: 10,
+    color: "#4F4F4F",
   },
 
-  eye: {
-    marginLeft: "auto",
-    padding: 1,
+  dividerContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 5,
   },
 
   line: {
@@ -54,17 +53,11 @@ export const loginEmailstyles = StyleSheet.create({
     backgroundColor: "#CCC",
   },
 
-  text: {
+  text3: {
     marginHorizontal: 10,
     color: "#CCC",
     fontSize: 14,
     fontWeight: "500",
-  },
-
-  dividerContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginVertical: 20,
   },
 
   continuebutton: {
@@ -72,7 +65,7 @@ export const loginEmailstyles = StyleSheet.create({
     borderRadius: 9,
     paddingVertical: 15,
     alignItems: "center",
-    marginVertical: 5,
+    marginVertical: 18,
   },
 
   continuetext: {
@@ -81,7 +74,18 @@ export const loginEmailstyles = StyleSheet.create({
   },
 
   socialmidia: {
-    marginTop: 3,
+    marginTop: 9,
+  },
+
+  socialmidiaButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: "#7b2cbf",
+    borderRadius: 9,
+    paddingVertical: 13,
+    paddingHorizontal: 10,
+    marginVertical: 6,
   },
 
   htext: {
@@ -96,14 +100,4 @@ export const loginEmailstyles = StyleSheet.create({
     position: "absolute",
   },
 
-  socialmidiaButton: {
-    flexDirection: "row",
-    alignItems: "center",
-    borderWidth: 1,
-    borderColor: "#7b2cbf",
-    borderRadius: 9,
-    paddingVertical: 13,
-    paddingHorizontal: 10,
-    marginVertical: 6,
-  },
 });

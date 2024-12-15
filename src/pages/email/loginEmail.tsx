@@ -3,7 +3,7 @@ import { View, TouchableOpacity, Text, TextInput } from "react-native";
 import { loginEmailstyles } from "./loginEmailstyles";
 import { Feather, Ionicons, FontAwesome5 } from "@expo/vector-icons";
 
-export default function loginEmailstylesstyles() {
+export default function loginEmailStyles() {
   const [inputValue, setInputValue] = useState("");
   const [hidePassword, setHidePassword] = useState(true);
 
