@@ -63,7 +63,7 @@ export const stylesForm3 = StyleSheet.create({
   buttonText2: {
     color: "#7b2cbf",
     fontSize: 16,
-    fontWeight: "400",
+    fontWeight: "300",
   },
   buttonContainer: {
     marginTop: 290,

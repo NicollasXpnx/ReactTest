@@ -1,8 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export const logincelularstyles = StyleSheet.create({
-  
-    container: {
+  container: {
     flex: 1,
     padding: 20,
     backgroundColor: "#FFFFFF",
@@ -71,6 +70,7 @@ export const logincelularstyles = StyleSheet.create({
   continuetext: {
     color: "#FFF",
     fontSize: 16,
+    fontWeight: "300",
   },
 
   socialmidia: {
@@ -99,5 +99,4 @@ export const logincelularstyles = StyleSheet.create({
     marginLeft: 45,
     position: "absolute",
   },
-
 });

@@ -78,6 +78,7 @@ export const loginEmailstyles = StyleSheet.create({
   continuetext: {
     color: "#FFF",
     fontSize: 16,
+    fontWeight: "300",
   },
 
   socialmidia: {
