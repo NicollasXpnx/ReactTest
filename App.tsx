@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import VerificarCelular from './src/pages/login-Celular/ligar-loc';
+import VerificarCelular from './src/pages/register/newUser';
 
 export default function App() {
   return (
